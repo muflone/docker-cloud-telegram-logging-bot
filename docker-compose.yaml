@@ -1,6 +1,6 @@
 services:
   app:
-    container_name: logging_bot
+    container_name: telegram-logging-bot
     image: ilmuflone/telegram-logging-bot:0.5.2
     restart: unless-stopped
     networks:
@@ -10,7 +10,7 @@ services:
 
 networks:
   default:
-    name: logging_bot
+    name: telegram-logging-bot
     driver: bridge
     enable_ipv6: false
 
