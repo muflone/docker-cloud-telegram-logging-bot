@@ -1,7 +1,7 @@
 services:
   app:
     container_name: telegram-logging-bot
-    image: ilmuflone/telegram-logging-bot:0.6.0
+    image: ilmuflone/telegram-logging-bot:0.6.1
     restart: unless-stopped
     networks:
       - default
